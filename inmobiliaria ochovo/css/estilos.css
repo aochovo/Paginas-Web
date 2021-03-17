@@ -1,0 +1,791 @@
+/*prototipado*/
+/**
+{
+	z-index: 0;
+}*/
+
+body{width:100%;margin:auto;min-width:1900px;max-width:2000px}
+html
+{
+	scroll-behavior: smooth;
+}
+#zero
+{
+	width: 100%;
+	min-height: 1125px;
+	background-color: black;
+	margin: 0px auto;
+}
+#contenedor
+{
+	width: 100%;
+	min-height: 1125px;
+	background-color: white;
+	float: left;
+}
+#botonera
+{
+	margin-left:12.5%;
+	width: 75%;
+	height: 75px;
+	background-color: white;
+	
+}
+#logo
+{
+	width: 20%;
+	height: 75px;
+	background-color: white;
+	float: left;
+}
+#botones
+{
+	margin-left:10%; 
+	width: 60%;
+	height: 75px;
+	background-color: green;
+	float: left;position: relative;
+	z-index:10;
+
+}
+#dashboard
+{
+	width: 100%;
+	height: 500px;
+	background-color: pink;
+	float: left;
+	margin: auto;
+	overflow: hidden;
+}
+#localidades
+{
+	width: 100%;
+	height: 100px;
+	background-color: yellow;
+	float: left;
+}
+#mostoles
+{
+	width: 25%;
+	height: 100px;
+	background-color: #8db6c9;
+	float: left;
+
+}
+#arroyo
+{
+	width: 25%;
+	height: 100px;
+	background-color: #4786a8;
+	float: left;
+}
+#alcorcon
+{
+	width: 25%;
+	height: 100px;
+	background-color: #63c5db;
+	float: left;
+}
+#madrid
+{
+	width: 25%;
+	height: 100px;
+	background-color: #52909e;
+	float: left;
+}
+#info_general
+{
+	width: 100%;
+	height: 500px;
+	background-color: pink;
+	float: left;
+}
+#info_compra
+{
+	width: 100%;
+	height: 400px;
+	background-color: green;
+	float: left;
+}
+#info_alquiler
+{
+	width: 100%;
+	height: 400px;
+	background-color: yellow;
+	float: left;
+}
+#formulario
+{
+	width: 100%;
+	height: 500px;
+	background-color: white;
+	float: left;
+}
+#redes
+{
+	width: 100%;
+	height: 50px;
+	background-color: #303030;
+	float: left;
+}
+/*fin prototipado*/
+/*botonera*/
+.menu *, .menu{ 
+text-decoration:none;
+list-style-type:none;	
+padding: 0px;
+margin:0px;
+background-color: white;
+}
+.menu > li {
+float:left;
+}
+.menu li{
+text-align:center;
+display:inline-block;
+width:25%;
+height:75px;
+}
+.menu li ul li{
+text-align:center;
+display:inline-block;
+width:100%;
+height:75px;
+}
+.menu li a {
+width:100%;
+height: 75px;
+display:inline-block;
+font-family:century gothic;
+color:#000000;
+padding-top:30px;
+border-bottom:3px solid white;
+text-decoration:none;
+box-sizing:border-box;
+}
+.menu li:hover{
+background:white;
+border-bottom:3px solid #0071A2;
+z-index: 2;
+}	
+.menu li ul {
+	display:none;
+	float: left;
+}
+.menu li:hover > ul {
+	display:inline-block;
+}
+/*fin de botonera*/
+/*dashboard*/
+#foto_dashboard
+{
+	width: 100%;
+	height:500px;
+	float: left;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/*fin dashboard*/
+/*localidades*/
+.localidades_div
+{
+font-family:century gothic;
+color:#000000;
+text-align:center;
+font-size: 25px;
+}
+.localidades_div p
+{
+	padding-top: 15px;
+}
+.localidades_div:hover
+{
+	opacity: 80%;
+}
+/*fin de localidades*/
+/*info_general*/
+#info_general_izq
+{
+	width: 50%;
+	height: 500px;
+	float: left;
+	font-family:century gothic;
+	color:#000000;
+	text-align:center;
+	font-size: 35px;
+	background-color: white;
+}
+#info_general_der
+{
+	width: 50%;
+	height: 500px;
+	float: left;
+	font-family:century gothic;
+	color:#000000;
+	text-align:center;
+	font-size: 25px;
+	background-color: white;
+}
+#info_general_izq_1
+{
+	width: 50%;
+	height: 100px;
+	float: left;
+	font-family:century gothic;
+	color:#0071A2;
+	text-align:center;
+	font-size: 30px;
+	background-color: white;
+	margin-top: 10%;
+	margin-left: 40%;
+	border-left: 5px solid #0071A2;
+}
+#info_general_der_1
+{
+	width: 50%;
+	height: 400px;
+	float: left;
+	font-family:century gothic;
+	color:black;
+	text-align:center;
+	font-size: 70%;
+	background-color: white;
+	margin-left: 12.5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+/*fin info_general*/
+/*info_compra*/
+#info_compra
+{
+	background-image: url(../images/fondo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#text_info_compra
+{
+	width: 25%;
+	height: 65%;
+	background-color: #f7f7f7;
+	float: left;
+	margin-top: 4%;
+	margin-left: 55%;
+	font-family:century gothic;
+	color:black;
+	border-radius: 10px;
+	text-align:center;
+}
+#rectangulo_info_compra
+{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5%;
+	
+}
+#viviendas_venta
+{
+	display:block;
+	background-color: #0071A2;
+	border: 5px solid #0071A2;
+	border-radius: 5px;
+	border-right:5px solid #0071A2;
+}
+#viviendas_venta a
+{
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+}
+#viviendas_venta a::after
+{
+	content: "  >";
+	font-weight: bolder;
+	position: absolute;
+	transition   : all 0.3s ease;
+	left: 75%;
+	opacity: 0;
+	background-color:#0071A2; 
+	font-size: 18px;
+}
+#viviendas_venta a:hover:after
+{
+	left: 77.5%;
+	opacity: 1;
+}
+/*fin info_compra*/
+/*info_alquiler*/
+#info_alquiler
+{
+	background-image: url(../images/fondo2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#text_info_alquiler
+{
+	width: 25%;
+	height: 65%;
+	background-color: #f7f7f7;
+	float: left;
+	margin-top: 4%;
+	margin-left: 20%;
+	font-family:century gothic;
+	color:black;
+	border-radius: 10px;
+	text-align:center;
+}
+#rectangulo_info_alquiler
+{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5%;
+	
+}
+#viviendas_alquiler
+{
+	display:block;
+	background-color: #0071A2;
+	border: 5px solid #0071A2;
+	border-radius: 5px;
+}
+#viviendas_alquiler a
+{
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+}
+#viviendas_alquiler a::after
+{
+	content: "  >";
+	font-weight: bolder;
+	position: absolute;
+	transition   : all 0.3s ease;
+	left: 39%;
+	opacity: 0;
+	background-color:#0071A2; 
+	font-size: 18px;
+	padding: 0px 2px 2px 2px;
+}
+#viviendas_alquiler a:hover:after
+{
+	left: 43%;
+	opacity: 1;
+}
+/*fin info_alquiler*/
+/*contacto*/
+#posibles_formularios
+{
+	background-color: white;
+	display: inline-block;
+	width: 47%;
+	height: 300px;
+	margin-left: 25%;
+	margin-top: 25px;
+}
+#texto_formulario p
+{
+	background-color: white;
+	display: inline-block;
+	margin-left: 25%;
+	font-size: 200%;
+	color: #004173;
+	font-family:century gothic;
+}
+/*#formulario div
+{
+	width: 40%;
+	height: 300px;
+	background-color: white;
+	display: inline-block;
+	margin-left: 28%;
+	margin-top: 4%;
+}*/
+#crear
+{
+	text-align: center;
+	display: inline-block;
+	width: 47%;
+	height: 50px;
+	border:4px solid #004173;
+	margin-top: 130px;
+	color: black;
+	font-family:century gothic;
+	text-decoration: none;
+	background-color: white;
+	font-size: 200%;
+}
+#ingresar
+{
+	text-align: center;
+	display: inline-block;
+	width: 47%;
+	height: 50px;
+	border:4px solid #004173;
+	color: black;
+	font-family:century gothic;
+	text-decoration: none;
+	background-color: white;
+	font-size: 200%;
+	margin-left: 3%;
+}
+#formulario_crear
+{
+	background-color: white;
+	display: inline-block;
+	margin-left: 25%;
+	margin-top: 20px;
+}
+#volver_crear
+{
+	text-align: center;
+	display: inline-block;
+	width: 47%;
+	height: 50px;
+	border:4px solid #004173;
+	margin-top: 20px;
+	margin-left: 25%;
+	color: black;
+	font-family:century gothic;
+	text-decoration: none;
+	background-color: white;
+	font-size: 200%;
+}
+#formulario_ingresar
+{
+	background-color: white;
+	display: inline-block;
+	margin-left: 25%;
+	margin-top: 35px;
+}
+#volver_ingresar
+{
+	text-align: center;
+	display: inline-block;
+	width: 47%;
+	height: 50px;
+	border:4px solid #004173;
+	margin-top: 20px;
+	margin-left: 25%;
+	color: black;
+	font-family:century gothic;
+	text-decoration: none;
+	background-color: white;
+	font-size: 200%;
+}
+#crear:hover
+{
+	background-color: #e6f1ff;
+	transition-duration: 0.3s;
+}
+#ingresar:hover
+{
+	background-color: #e6f1ff;
+	transition-duration: 0.3s;
+}
+#volver_crear:hover
+{
+	background-color: #e6f1ff;
+	transition-duration: 0.3s;
+}
+#volver_ingresar:hover
+{
+	background-color: #e6f1ff;
+	transition-duration: 0.3s;
+}
+#formulario_sesion p
+{
+font-family:century gothic;
+font-size: 100%;
+}
+/*fin contacto*/
+/*redes*/
+#redes_contenedor
+{
+	display: inline-block;
+	margin-left: 42.5%;
+}
+#redes_contenedor img
+{
+	height: 50px;
+}
+#redes_contenedor img:hover
+{
+	background-color: #0071A2;
+	border-radius: 100%;
+}
+/*fin redes*/
+/*mostrar casas*/
+#mostrar
+{
+	width: 100%;
+	min-height:500px;
+	float: left; 
+}
+#foto_fondo
+{
+	width: 100%;
+	height:500px;
+	float: left;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#mostrar_casas
+{
+	min-height: 400px;
+	float: left;
+	width: 80%;
+	background-color: white;
+	margin-left: 11%;
+	margin-top: 75px;
+	margin-bottom: 75px;
+}
+#cajon
+{
+	width: 32%;
+	height: 145px;
+	float: left;
+	background-color: #d4d4d4;
+	opacity: 0.9;
+	margin-top: -18%;
+	margin-left: 33%;
+}
+#cajon #grande
+{
+	font-family:century gothic;
+	font-size: 160%;
+	text-align:center;
+	color: #004173;
+}
+#cajon #pequeño
+{
+	font-family:century gothic;
+	font-size: 100%;
+	text-align:center;
+}
+.casa
+{
+	width: 20%;
+	height: 350px;
+	float: left;
+	background-color: white;
+	margin-left: 10%;
+	margin-top: 2.5%;
+	border:2px solid #c9c9c9;
+}
+.casa img
+{
+	margin-top: 15px;
+	height: 150px;
+	backface-visibility:hidden;
+	position: relative;
+
+}
+.casa .nombre
+{
+	font-family:century gothic;
+	font-size: 120%;
+	text-align:center;
+	color: #004173;
+}
+.casa .localidad
+{
+	font-family:century gothic;
+	font-size: 100%;
+	text-align:center;
+	color: black;
+}
+.casa .texto
+{
+	width: 30%;
+	display: inline-block;
+	margin-left: 2%;
+	text-align:center;
+	font-family:century gothic;
+	font-size: 95%;
+}
+.casa .text
+{
+	width: 30%;
+	display: inline-block;
+	margin-left: 2%;
+	text-align:center;
+	margin-top: 5%;
+	font-family:century gothic;
+	font-size: 90%;
+}
+.casa .precio
+{
+	width: 100%;
+	font-family:century gothic;
+	font-size: 150%;
+	text-align:center;
+	margin-top: 5%;
+	color: #004173;
+	display: inline-block;
+}
+#imagen3d
+{
+	position:relative;/*Para que los lados tengan "padre" */
+	transform-style:preserve-3d;
+	transition:0.5s;
+}
+#imagen3d:hover{
+	transform:rotatey(180deg)
+	
+}
+.lado_atras
+{
+	background-color: #004173;
+	font-family:century gothic;
+	font-size: 150%;
+	text-align:center;
+	transform:rotatey(180deg);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	backface-visibility:hidden;
+}
+.lado_atras p
+{
+	margin-top: 25%;
+	color: white;
+}
+.casa .imagen
+{
+	backface-visibility:hidden;
+}
+/*fin mostrar casas*/
+/*nuestros servicios*/
+#contenedor_nuestros_servicios
+{
+	width: 100%;
+	height: 1750px;
+	float: left;
+	background-image: url(../images/fondo_nuestros_servicios.jpg);
+	background-size: cover;
+	 background-repeat: no-repeat;
+}
+#texto_nuestros_servicios
+{
+	width: 40%;
+	height: 1500px;
+	background-color: white;
+	float:left;
+	opacity: 0.8;
+	margin-left: 30%;
+	margin-top: 7%;
+}
+.parrafo_nuestros_servicios
+{
+	font-family:century gothic;
+	font-size: 100%;
+	margin-left: 20px;
+	margin-right: 15px;
+}
+.titulo_nuestros_servicios
+{
+	font-family:century gothic;
+	font-size: 100%;
+	margin-left: 20px;
+	margin-right: 15px;
+}
+#texto_nuestros_servicios h1
+{
+	font-family:century gothic;
+	text-align: center;
+	color: #004173;
+}
+/*fin de nuestros servicios*/
+/*mostrar uno*/
+#contenedor_casa
+{
+	width: 60%;
+	height: 700px;
+	margin-left: 20%;
+	margin-top: 2.5%;
+	float: left;
+}
+.info_casa_izq
+{
+	float: left;
+	display: inline-block;
+	width: 75%;
+	height: 125px;
+	background-color: #1b78c4;
+	margin-top: 2%;
+}
+.nombre_casa
+{
+	font-family:century gothic;
+	color: white;
+	font-size: 200%;
+	margin-top: 2%;
+	display: inline-block;
+	width: 97%;
+	border-bottom:2px solid white;
+	margin-left: 10px;
+}
+.localidad_casa
+{
+	font-family:century gothic;
+	color: white;
+	font-size: 100%;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.info_casa_der
+{
+	float: left;
+	display: inline-block;
+	width: 23%;
+	height: 125px;
+	background-color: #c9c9c9;
+	margin-top: 2%;
+	margin-left: 2%;
+}
+.info_casa_der .texto_casa
+{
+	margin-right: 5px;
+	display:block; 
+	float: left;
+}
+.info_casa_der .texto_casa
+{
+	width: 29%;
+	display: inline-block;
+	margin-left: 2%;
+	text-align:center;
+	font-family:century gothic;
+	font-size: 90%;
+	float: left;
+}
+.info_casa_der .text_casa
+{
+	width: 29%;
+	display: inline-block;
+	margin-left: 2%;
+	text-align:center;
+	font-family:century gothic;
+	font-size: 85%;
+}
+.info_casa_der .precio_casa
+{
+	width: 90%;
+	border-radius: 5px;
+	font-family:century gothic;
+	font-size: 140%;
+	text-align:center;
+	margin-top: 5%;
+	color: white;
+	display: inline-block;
+	background-color: #1b78c4;
+	margin-left: 5%;
+}
+.info_casa_der .titulo
+{
+	width: 100%;
+	font-family:century gothic;
+	font-size: 120%;
+	margin-left: 3%;
+}
+/*fin mostrar uno*/
