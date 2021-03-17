@@ -1,0 +1,411 @@
+#zero
+{
+	width: 100%;
+	height: 1090px;
+	margin: 0px auto;
+}
+#contenedorgrande
+{
+	width: 100%;
+	height: 1090px;
+	float: left;
+	background-color: red;
+}
+#logo
+{
+	width: 100%;
+	height: 50px;
+	float: left;
+	background-color: white;
+}
+.menu
+{
+	width: 100%;
+	height: 50px;
+	float: left;
+	background:white;
+}
+.menu ul{
+	margin:0px;
+	list-style:none;
+	padding:0px;
+}
+.menu li{
+	text-align:center;
+	display:inline-block;
+	width:24%;
+	height:50px;
+	box-sizing:border-box;
+}
+.menu li a{
+			width: 100%;
+			display:inline-block;
+			font-family:verdana;
+			color:#000000;
+			font-weight:bolder;
+			padding:15px 20px 10px 20px;
+			border-bottom:5px;
+			text-decoration:none;
+}
+.menu li:hover{
+			background:white;
+			border-bottom: solid;
+			border-color: black;
+}
+#contenedorpequeño
+{
+	width: 100%;
+	height: 940px;
+	float: left;
+}
+.black
+{
+	width: 100%;
+	height: 25px;
+	float: left;
+	background-color: black;
+}
+#reproduccion
+{
+	width: 100%;
+	height: 320px;
+	float: left;
+	background-color: yellow;
+	margin: auto;
+	overflow: hidden;
+}
+#reproduccion ul {
+	display: flex;
+	padding: 0;
+	margin-top: 00px;
+	width: 400%;
+	animation: cambio 12s infinite alternate linear;
+}
+#reproduccion li {
+	width: 100%;
+	list-style: none;
+}
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+#garmin
+{
+	width: 100%;
+	height:320px;
+	float: left;
+	background-image: url('../images/garmin1.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#suunto
+{
+	width: 100%;
+	height: 320px;
+	float: left;
+	background-image: url('../images/suunto1.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#polar
+{
+	width: 100%;
+	height: 320px;
+	float: left;
+	background-image: url('../images/polar1.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#amazfit
+{
+	width: 100%;
+	height: 320px;
+	float: left;
+	background-image: url('../images/amazfit1.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#grey
+{
+	width: 100%;
+	height: 35px;
+	float: left;
+	background-color: #DDDDDD;
+	text-align: center;
+	font-size: 20px;
+	font-family: verdana;
+	padding-top: 15px;
+	text-shadow: 2px 2px 5px black;
+}
+#series{
+	width: 100%;
+	height: 520px;
+	float: left;
+}
+#garmin2
+{
+	width: 25%;
+	height: 520px;
+	float: left;
+	background-color: black;
+	background-image: url(../images/garmin2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	filter: saturate(100%);
+}
+#garmin2:hover{
+	filter: saturate(125%);
+}
+#suunto2
+{
+	width: 25%;
+	height: 520px;
+	float: left;
+	background-color: yellow;
+	background-image: url(../images/suunto2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	filter: saturate(100%);
+}
+#suunto2:hover{
+	filter: saturate(175%);
+}
+#polar2
+{
+	width: 25%;
+	height: 520px;
+	float: left;
+	background-color: black;
+	background-image: url(../images/polar2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	filter: saturate(100%);
+
+}
+#polar2:hover{
+	filter: saturate(175%);
+}
+#amazfit2
+{
+	width: 25%;
+	height: 520px;
+	float: left;
+	background-color: yellow;
+	background-image: url(../images/amazfit2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	filter: saturate(100%);
+}
+#amazfit2:hover{
+	filter: saturate(175%);
+}
+.redes
+{
+	width: 100%;
+	height: 50px;
+	float: left;
+	background:black;
+}
+.redes ul{
+	margin:0px;
+	list-style:none;
+	padding:0px;
+}
+.redes li{
+	text-align:center;
+	display:inline-block;
+	width:19%;
+	height:50px;
+	box-sizing:border-box;
+}
+.redes li a{
+			width: 100%;
+			display:inline-block;
+			font-family:verdana;
+			color:white;
+			font-weight:bolder;
+			padding:15px 20px 10px 20px;
+			border-bottom:5px;
+			text-decoration:none;
+}
+.redes li:hover{
+			background:black;
+			border-bottom: solid;
+			border-color: white;
+}
+
+html{
+	box-sizing:border-box;
+}
+body{
+	margin:0px;
+}
+.black a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+}
+.black a:hover{
+	color: white;
+	font-size: 18px;
+	text-decoration:underline;
+}
+#formulario
+{
+	width: 100%;
+	height:95%;
+	float: left;
+	background-color: white;
+	font-size: 20px;
+	font-family: verdana;
+}
+#formulario2
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-color: white;
+	font-size: 20px;
+	font-family: verdana;
+	position:relative;
+	left: 25%;
+	transition: all 1s;
+}
+#formulario2:hover
+{
+	border-radius: 15px;
+	box-shadow: 5px 0px 5px black,-5px 0px 5px black;
+	transition: all 1s;
+}
+.black2
+{
+	width: 100%;
+	height: 2.5%;
+	float: left;
+	background-color: black;
+}
+#gf6{
+	float: left;
+	width: 100%;
+	height: 445px;
+	background-color: white;
+}
+#sswhr{
+	float: left;
+	width: 100%;
+	height: 445px;
+	background-color: white;
+}
+.izq{
+	float: left;
+	width: 50%;
+	height: 445px;
+
+}
+.der{
+	float: left;
+	width: 50%;
+	height: 445px;
+
+}
+.imagenesp{
+	float: left;
+	width: 5%;
+	height: 80%;
+	background-color: white;
+	margin: 50px 0px 0px 45%;
+}
+.imageng{
+	float: left;
+	width: 35%;
+	height: 80%;
+	margin: 70px 0px 0px 70px;
+}
+.nombre{
+	float: left;
+	width: 35%;
+	height: 20%;
+	background-color: white;
+	margin: 50px 0px 0px 50px;
+	font-family: alex;
+	font-size: 25px;
+
+}
+.comprar{
+	float: left;
+	width: 35%;
+	height: 15%;
+	background-color: #00A0D1;
+	margin: 150px 0px 0px -35%;
+	font-family: alex;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 15px;
+
+}
+.peqg{
+	width:100%;
+	height:50%;}
+	
+.grag {
+	width:17%;
+	height:40%;
+	position:absolute;
+	top:80%;
+	left:28%;
+	display:none;
+
+	}	
+.peqg:hover + .grag {display:block;}
+.peqs{
+	width:100%;
+	height:50%;}
+	
+.gras {
+	width:17%;
+	height:40%;
+	position:absolute;
+	top:18%;
+	left:28%;
+	display:none;
+	}	
+.peqs:hover + .gras {display:block;}
+@font-face{
+	font-family:alex;
+	src: url('../descargas/KeepCalm-Medium.ttf');
+}
+.nombre nav{
+	margin-top: 7%;
+}
+.comprar nav{
+	margin-top: 7%;
+}
+p{
+	font-family:alex;
+	font-size: 15px;
+}
+.mapa{
+	width: 100%;
+	height: 780px;
+	background-color: #EFEFEF ;
+}
+.text{
+	width: 100%;
+	height: 120px;
+	background-color: #EFEFEF ;
+}
+iframe{
+	width: 100%;
+	height: 700px;
+}

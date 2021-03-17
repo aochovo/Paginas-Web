@@ -1,0 +1,47 @@
+ <html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+	<link rel="icon" type="image/png" href="images/favicon.jpg" />
+	<title></title>
+	</head>	
+		<body>
+			<div id="cero">
+			<div id="contenido">
+			<div id="logo1"><a href="index.html" target="_self"><img src="images/logotw.png" alt="logo de the witcher"></a></div>
+			<div id="botones">
+			<div id="serie"><a href="https://www.netflix.com/es/title/80189685" target="_blank"><img src="images/btnserie.png" alt="boton serie"></a></div>
+			<div id="juego"><a href="https://www.amazon.es/Witcher-Wild-Hunt-Game-Year/dp/B01J2K2OG6/ref=sr_1_3?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=the+witcher+juego&qid=1578435824&sr=8-3" target="_blank"><img src="images/btnjuego.png" alt="boton juego"></a></div>
+			<div id="libro"><a href="https://www.amazon.es/s?k=the+witcher+libro&__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss_1" target="_blank"><img src="images/btnlibro.png" alt="boton libro"></a></div>
+			<div id="dudas"><a href="dudas.html" target="_self"><img src="images/btndudas.png" alt="boton dudas"></a></div>
+			</div>
+			<div id="texto">
+			<center><form action="envio.php" method="get">
+			<label for="nom">NOMBRE</label><input id="nom" type="text" required></input>
+			<br/>
+			<label for="psw">PASSWORD</label><input id="psw" type="password" pattern=".{8,15}" title="Solo password entre 8 y 15 caractéres"></input>
+			<br/>
+			<label for="eda">edad</label><input id="eda" type="number" min="16" max="67"></input>
+			<br/>
+			<label for="fec">Fecha de nacimiento</label><input id="fec" type="date"></input>
+			<br/>
+			<label for="col">Color preferido</label><input id="col" type="color"></input>
+			<br/>
+			<label for="email">email</label><input id="email" type="text" pattern="/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/" title="introduzca un correo válido"></input>
+			<br/>
+			<label for="tel">teléfono</label><input id="tel" type="tel"></input>
+			<br/>
+			CIUDAD
+					<select>
+							<option>Madrid</option>
+							<option>BCN</option>
+							<option>Lugo</option>
+					</select>
+			<br/>
+			<label for="send"></label><input type="image" id="send" src="images/enviar.jpg" width="50px" height="50px"/>
+			</form></center>
+			</div>
+			<div id="logo2"><a href="index.html" target="_self"><img src="images/logotw.png" alt="logo de the witcher"></a></div>
+			</div>
+			</div>
+		</body>
+</html>

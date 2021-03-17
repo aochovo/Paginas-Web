@@ -1,0 +1,82 @@
+#contenido{
+	margin:0px auto;
+	background-color:red;
+	float:left;
+	width:1000px;		
+}
+#logo1{
+	height:128px;
+	width:1000px;
+	float:left;
+	background-color:black;
+}
+#botones{
+	height:50px;
+	width:1000px;
+	float:left;
+	background-color:blue;
+}
+#serie{
+	height:50px;
+	width:250px;
+	float:left;
+	background-color:red;
+	
+}
+#juego{
+	height:50px;
+	width:250px;
+	float:left;
+	background-color:blue;
+	
+}
+#libro{
+	height:50px;
+	width:250px;
+	float:left;
+	background-color:red;
+}
+#dudas{
+	height:50px;
+	width:250px;
+	float:left;
+	background-color:blue;
+}
+#texto{
+	width:1000px;
+	float:left;
+	background-color:EAEAEA;
+}
+#logo2{
+	height:128px;
+	width:1000px;
+	float:left;
+	background-color:black;
+}
+p{
+	text-align:left;
+	font-size:30;
+	
+}
+.negrita{
+	font-weight:900;
+}
+h1{
+	font-size:40;
+	
+}
+h2{
+	font-size:35;
+	
+}
+#trailer{
+	font-size:35;
+}
+#cero{
+	margin:0px auto;
+	background-color:red;
+	width:1000px;		
+}
+body{
+	background-color:black;
+}
